@@ -1,0 +1,3 @@
+.button {
+  @apply w-14 bg-blue-400 rounded-md text-white;
+}
