@@ -1,6 +1,7 @@
 import useTranslation from 'next-translate/useTranslation'
+import PropTypes from 'prop-types'
 
-import styles from './index.module.css'
+import styles from './Button.module.css'
 
 export default function Button({ label, children }) {
   const { t } = useTranslation('common')
@@ -11,4 +12,14 @@ export default function Button({ label, children }) {
       {children}
     </button>
   )
+}
+
+Button.propTypes = {
+  label: PropTypes.string,
+  children: PropTypes.node
+}
+
+Button.defaultProps = {
+  label: '',
+  children: ''
 }
