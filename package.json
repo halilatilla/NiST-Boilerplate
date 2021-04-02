@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "next": "latest",
+    "next-pwa": "^5.0.6",
+    "next-seo": "^4.23.0",
     "next-translate": "^1.0.5",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
@@ -21,6 +23,8 @@
     "@storybook/addon-essentials": "6.2.0-rc.0",
     "@storybook/addon-postcss": "2.0.0",
     "@storybook/react": "6.2.0-rc.0",
+    "@svgr/plugin-jsx": "^5.5.0",
+    "@svgr/webpack": "^5.5.0",
     "@tailwindcss/jit": "0.1.17",
     "autoprefixer": "^10.2.5",
     "babel-eslint": "^10.1.0",
